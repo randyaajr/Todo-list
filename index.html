@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Todo-List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class='header'>
+    <div class='contener-header'>
+      <div class='title'>
+        <h1>Todo-List</h1>
+      </div>
+      <div>
+        <input type='text' class='style1' id='input-todo'><button id='btn-send-todo' class='style1'>Add</button>
+      </div>
+    </div>
+  </div>
+  <div class='list-gen'>
+    <div class='list-contener' id='list'>
+      <div class='list' onclick='this.style.textDecoration = "line-through"'>
+        <button class='cancel' onclick='this.parentElement.style.display = "none";'>×</button>
+        <span class='text'>Buy milk</span>
+      </div>
+    </div>
+  </div>
+  <div class="footer-1">
+    <footer class="footer-main">
+      <em>Designed and created by: Randy Arthur Anderson</em>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
